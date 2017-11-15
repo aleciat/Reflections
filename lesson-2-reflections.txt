@@ -7,14 +7,20 @@ The staging area is not locked in yet, it's a staging ground for the commit. It'
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can check the status.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Different versions of the same game, experimental edits, etc. They'd help by having an easy to reference branch name that would instantly pull it up and not have to worry about editing the master branch.
 
 How do the diagrams help you visualize the branch structure?
+The diagrams help me visualize the branch structure by displaying it in an easy to understand way.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging two branches together keeps anything new added and deletes anything that was deleted from the original version, so it is compared 3 ways. It's represented in diagram the way it is to represent that each branch object has a parent and to help visualize the way that parenthood moves down the line.
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+I don't see any cons to initially using the automatic merging. It does the best it can and even if there are small conflicts/flaws it'll be easy to go back and fix those vs try and do everything by hand from the beginning.
